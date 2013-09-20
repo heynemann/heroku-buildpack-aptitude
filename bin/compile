@@ -24,7 +24,7 @@ CACHE_DIR=$2
 WGET_BUILD="$(mktmpdir wget)"
 DEBOOTSTRAP_BUILD="$(mktmpdir debootstrap)"
 FAKECHROOT_BUILD="$(mktmpdir fakechroot)"
-DEFAULT_DEB_PACKAGES="aptitude git-core"
+DEFAULT_DEB_PACKAGES="aptitude git-core libwebp4"
 
 mkdir -p $BUILD_DIR/.tools/fakechroot
 mkdir -p $CACHE_DIR/.tools/{wget,debootstrap}
